@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import Footer from './Footer';
 
@@ -22,9 +22,9 @@ const Faq = () => {
     }
   ];
 
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index:number)=> {
     setOpenIndex(openIndex === index ? null : index);
   };
 

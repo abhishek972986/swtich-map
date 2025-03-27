@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 import imagecopy from './images/image.png';
 

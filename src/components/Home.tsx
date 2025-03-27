@@ -1,6 +1,6 @@
-import React from "react";
+
 import grid from "./images/grid-1.jpg";
-import { FaArrowRight, FaCheckCircle, FaMicrosoft, FaGithub, FaMailBulk } from "react-icons/fa";
+import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import DeviceTable from "./DeviceTable";
 import logo from './images/image copy.png'
 import MovingBar from "./MovingBar";

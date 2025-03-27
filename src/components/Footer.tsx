@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaLinkedin, FaFacebookF, FaTwitter } from "react-icons/fa";
 import { TiLocationArrowOutline } from "react-icons/ti";
 import logo from './images/image copy.png';
