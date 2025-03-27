@@ -52,7 +52,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="text-center text-2xl md:text-5xl tracking-wide font-extrabold leading-relaxed md:leading-relaxed home-head">
+          <div className="text-center text-3xl md:text-5xl tracking-wide font-extrabold leading-relaxed md:leading-relaxed home-head">
             The <span className="titled-bg text-white rounded-xl">smartest</span> way to navigate <br className="hidden md:block" />
             & map efficiently - Switchmap - NG
           </div>
