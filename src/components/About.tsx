@@ -4,9 +4,9 @@ import imagecopy from './images/image.png';
 
 const About = () => {
   return (
-    <div className='h-auto w-full  flex flex-col justify-around'>
+    <div className='h-auto w-full  flex flex-col justify-around '>
       
-      <div className='grid grid-cols-1 md:grid-cols-2 w-full justify-center place-content-center mt-10 gap-8'>
+      <div className=' px-6 grid grid-cols-1 md:grid-cols-2 w-full justify-center place-content-center mt-10 gap-8'>
         <div className='place-self-center w-full md:w-1/2 text-start text-4xl md:text-6xl leading-relaxed'>
           <span className='home-head text-4xl md:text-6xl text-green-600 transition-all duration-300 hover:text-green-800'>Why</span> <br />
           Switchmap-NG
@@ -20,7 +20,7 @@ const About = () => {
       </div>
 
 
-      <div className='w-full flex justify-center items-center mt-10'>
+      <div className='w-full flex justify-center items-center mt-10 px-3'>
         <div className='flex flex-wrap sm:flex-col md:flex-row justify-center items-center max-w-[1100px] w-full gap-8'>
           {[
             {
@@ -42,7 +42,7 @@ const About = () => {
           ].map((card, index) => (
             <div 
               key={index}
-              className='w-full sm:w-[90%] md:w-[500px] h-[270px] border flex flex-col gap-3 p-4 rounded-xl shadow-2xl transition-transform duration-500 hover:scale-105 hover:shadow-green-500/70'
+              className='w-full sm:w-[90%] md:w-[500px] h-[270px] border flex flex-col gap-3 p-3 rounded-xl shadow-2xl transition-transform duration-500 hover:scale-105 hover:shadow-green-500/70'
             >
               <div className='text-2xl md:text-3xl text-green-600'>{card.title}</div>
               <p className="text-base md:text-lg">{card.description}</p>
@@ -53,7 +53,7 @@ const About = () => {
 
       
       <div 
-        className="w-full flex flex-col justify-center items-center h-[100px] md:h-[130px] gap-2 mt-10 p-4" 
+        className="w-full flex flex-col justify-center items-center h-[100px] md:h-[130px] gap-2 mt-10 p-4  " 
         style={{ backgroundImage: `url(${imagecopy})`, backgroundSize: "cover", backgroundPosition: "center" }}
       >
         <div className='w-full text-xl md:text-3xl font-bold text-center text-white'>Start learning Switchmap-NG!!</div>

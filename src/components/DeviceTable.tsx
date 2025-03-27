@@ -1,6 +1,7 @@
 const DeviceTable = () => {
     return (
-      <div className="overflow-hidden rounded-t-2xl  border-gray-200 shadow-sm">
+      <div className="overflow-x-scroll scrollbar-hide overflow-hidden rounded-t-2xl border-gray-200 shadow-sm">
+
         <table className="min-w-full bg-white  transition-all duration-300 ease-in">
           <thead className="bg-white border-b">
             <tr>
