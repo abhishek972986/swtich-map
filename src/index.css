@@ -153,5 +153,21 @@ height: 40px;
   
 }
 
+@media (max-width:1400px) {
+  .page3 .card{
+    height:20px;
+  }
+  @keyframes infinity {
+    0%{
+        transform: translate(0%);
+    }
+    
+    100%{
+        transform: translate(-200vw);
+    }
+  }
+  
+}
+
 
 
