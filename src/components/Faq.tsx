@@ -34,7 +34,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="relative min-h-screen w-full flex flex-col items-center bg-gray-100 gap-6 mb-50 md:mb-0 h-screen ">
+    <div className="  w-full flex flex-col items-center bg-gray-100 gap-6 mb-50 md:mb-0 h-[120%] min-h-[900px] ">
       <Comments />
 {/*       
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-green-600 mb-6 md:mb-8">

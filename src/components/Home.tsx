@@ -6,7 +6,7 @@ import logo from './images/image copy.png';
 
 const Home = () => {
   return (
-    <div className="min-h-screen w-full flex flex-col border relative overflow-x-hidden">
+    <div className="h-full w-full flex flex-col border relative overflow-x-hidden">
       <div
         className="absolute inset-0 h-full w-full"
         style={{
