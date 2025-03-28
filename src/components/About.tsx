@@ -8,10 +8,10 @@ const About = () => {
       
       <div className=' px-6 grid grid-cols-1 md:grid-cols-2 w-full justify-center place-content-center mt-10 gap-8'>
         <div className='place-self-center w-full md:w-1/2 text-start text-4xl md:text-6xl leading-relaxed'>
-          <span className='home-head text-4xl md:text-6xl text-green-600 transition-all duration-300 hover:text-green-800'>Why</span> <br />
+          <span className='home-head text-4xl md:text-6xl text-green-600 transition-all duration-300 hover:text-green-800 about-head font-extrabold'>Why</span> <br />
           Switchmap-NG
         </div>
-        <div className='w-full md:w-1/1.5 place-self-center text-start text-lg md:text-xl'>
+        <div className='w-full md:w-1/1.5 place-self-center text-start text-lg md:text-xl about-head'>
           Switchmap-NG is a Python 3-powered network <br />
           inventory system that provides real-time <br />
           mapping, intelligent monitoring, and proactive <br />
@@ -42,10 +42,10 @@ const About = () => {
           ].map((card, index) => (
             <div 
               key={index}
-              className='w-full sm:w-[90%] md:w-[500px] h-[270px] border flex flex-col gap-3 p-3 rounded-xl shadow-2xl transition-transform duration-500 hover:scale-105 hover:shadow-green-500/70'
+              className='w-full sm:w-[90%] md:w-[500px] h-[270px]  flex flex-col gap-3 p-3 rounded-xl about-boxes '
             >
-              <div className='text-2xl md:text-3xl text-green-600'>{card.title}</div>
-              <p className="text-base md:text-lg">{card.description}</p>
+              <div className='text-2xl md:text-3xl text-green-600 about-head'>{card.title}</div>
+              <p className="text-base md:text-lg about-base ">{card.description}</p>
             </div>
           ))}
         </div>
@@ -58,7 +58,7 @@ const About = () => {
       >
         <div className='w-full text-xl md:text-3xl font-bold text-center text-white'>Start learning Switchmap-NG!!</div>
         <div className='flex justify-center items-center w-full'>
-          <button className='p-3 md:p-2 rounded-xl flex items-center bg-black text-white text-lg md:text-xl gap-2 transition-all duration-300 hover:bg-white cursor-pointer hover:text-black hover:scale-103'>
+          <button className='p-3 md:p-2 rounded-xl flex items-center bg-black text-white text-lg md:text-xl gap-2 transition-all duration-600 hover:bg-white cursor-pointer hover:text-black '>
             Read from docs 
             <IoArrowForwardCircleSharp className="transition-transform duration-300 group-hover:translate-x-1" />
           </button>

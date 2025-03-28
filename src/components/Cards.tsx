@@ -1,16 +1,17 @@
-import card from './images/test.jpg';
+
 import { FaCommentDots } from "react-icons/fa";
-const Cards = () => {
+
+const Cards = ({card}) => {
   return (
-    <div className="card-container w-[400px] h-[220px] border border-gray-300 shadow-lg rounded-2xl bg-white flex items-center p-4 transition-all duration-300 hover:shadow-2xl group relative">
+    <div className="card-container w-[400px] h-[220px] border border-gray-300 shadow-lg rounded-2xl bg-white flex items-center p-4 transition-all duration-300 hover:shadow-2xl group relative cursor-pointer">
         <FaCommentDots className='absolute z-2 -right-4 top-[20%] text-red-700 text-3xl'/>
       {/* Image Section */}
-      <div className="w-1/2 flex justify-center">
-        <div className="w-full h-full flex justify-center relative">
+      <div className="w-1/2 flex justify-center ">
+        <div className="w-full h-full flex justify-center relative cursor-pointer">
           <img 
             src={card} 
             alt="Profile" 
-            className="w-[80%] h-full object-cover rounded-2xl transition-transform duration-300 group-hover:-translate-y-4 group-hover:shadow-2xl"
+            className="w-[80%] h-full object-cover rounded-2xl transition-transform duration-300  "
           />
         </div>
       </div>

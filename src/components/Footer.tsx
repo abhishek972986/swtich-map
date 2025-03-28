@@ -40,9 +40,9 @@ const Footer = () => {
 
       <div className='text-center mt-10 flex justify-center'><hr className='w-[85%]' /></div>
       
-      <div className="w-full flex flex-wrap justify-between items-center px-4 md:px-8 py-4 mt-10">
+      <div className="w-full flex flex-wrap justify-around items-center px-4 md:px-8 py-4 mt-10">
         <div className="text-lg md:text-3xl font-extrabold flex items-center">
-          <img src={logo} alt="" className="w-10 h-10 mr-2" />Switchmap-NG
+          <img src={logo} alt="" className="w-10 h-10 mr-2 logo-font" />Switchmap-NG
         </div>
         <div className="flex flex-wrap justify-around items-center space-x-3 md:space-x-5 text-sm md:text-base mt-4 md:mt-0">
           <div className="cursor-pointer">Terms</div>
