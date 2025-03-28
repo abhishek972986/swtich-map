@@ -41,7 +41,7 @@ const Home = () => {
         </div>
 
         {/* Hero Section */}
-        <div className="flex flex-col justify-center items-center w-full px-4 sm:px-6 md:px-8 space-y-4 md:space-y-6 text-center">
+        <div className="flex flex-col justify-center items-center w-full   space-y-4 md:space-y-6 text-center">
           <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
             <div className="flex items-center gap-2 px-2 py-1 bg-white/30 backdrop-blur-md rounded-lg shadow-lg shadow-white text-xs md:text-lg">
               <FaCheckCircle className="text-green-700" /> Real-time Network Insights
@@ -64,9 +64,10 @@ const Home = () => {
             devices, reporting OSI model data including port status, VLANs, ARP details, and system <br className="hidden md:block" />
             health for efficient network management and monitoring.
           </div>
-        </div>
+       
 
         {/* Device Table */}
+        <div className="w-full">
         <div className="w-full flex-grow flex justify-center items-end ">
           <div className="rounded-t-3xl w-full max-w-4xl shadow-[10px_-10px_150px_rgba(74,222,128,1)]">
             <DeviceTable />
@@ -93,6 +94,8 @@ const Home = () => {
               <h1 className="moving-font text-white">POSTMAN</h1>
             </div>
           </div>
+          </div>
+          </div> 
         </div>
 
       </div>
