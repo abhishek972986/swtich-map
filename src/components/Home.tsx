@@ -41,7 +41,8 @@ const Home = () => {
         </div>
 
         {/* Hero Section */}
-        <div className="flex flex-col justify-center items-center w-full   space-y-4 md:space-y-6 text-center">
+        
+        <div className="flex flex-col justify-around items-center w-full   space-y-4 md:space-y-6 text-center">
           <div className="w-full">
           <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
             
