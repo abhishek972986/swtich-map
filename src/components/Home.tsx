@@ -17,7 +17,7 @@ const Home = () => {
       />
       <div className="absolute inset-0 bg-white/78" />
 
-      <div className="relative z-10 flex flex-col flex-grow justify-between items-center ">
+      <div className="relative z-10 flex flex-col flex-grow justify-around items-center ">
         
         {/* Navbar */}
         <div className="w-full flex flex-wrap justify-between items-center px-4 md:px-8 py-3">
