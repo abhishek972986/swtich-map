@@ -42,7 +42,9 @@ const Home = () => {
 
         {/* Hero Section */}
         <div className="flex flex-col justify-center items-center w-full   space-y-4 md:space-y-6 text-center">
+          <div className="w-full">
           <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
+            
             <div className="flex items-center gap-2 px-2 py-1 bg-white/30 backdrop-blur-md rounded-lg shadow-lg shadow-white text-xs md:text-lg">
               <FaCheckCircle className="text-green-700" /> Real-time Network Insights
             </div>
@@ -53,6 +55,8 @@ const Home = () => {
               <FaCheckCircle className="text-green-700" /> Real-time Device Mapping
             </div>
           </div>
+</div>
+
 
           <div className="text-center text-3xl md:text-6xl tracking-wide font-extrabold leading-relaxed md:leading-relaxed home-head sm:my-5 md:my-6">
             The <span className="titled-bg text-white rounded-xl px-2 py-1">smartest</span> way to navigate <br className="hidden md:block" />
