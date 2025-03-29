@@ -3,7 +3,7 @@ import { FaArrowRight, FaCheckCircle, FaMicrosoft, FaGithub } from "react-icons/
 import { SiPostman, SiZapier } from "react-icons/si";
 import DeviceTable from "./DeviceTable";
 import logo from './images/image copy.png';
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="h-full w-full flex flex-col border relative overflow-x-hidden">
@@ -33,10 +33,12 @@ const Home = () => {
           </div>
 
           <div>
-            <button className="p-1.5 md:p-2.5 rounded-lg md:rounded-xl text-white bg-green-700 text-xs md:text-lg font-bold flex justify-center items-center gap-2 hover:bg-green-600 transition-all duration-500 ease-in-out">
+          
+<Link to="/main">
+            <button className="p-1.5 md:p-2.5 rounded-lg md:rounded-xl text-white bg-green-700 text-xs md:text-lg font-bold flex justify-center items-center gap-2 hover:bg-green-600 transition-all duration-500 ease-in-out group cursor-pointer">
               Get Started
               <FaArrowRight className="text-xs md:text-lg text-white font-bold -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0 group-hover:translate-x-1" />
-            </button>
+            </button></Link>
           </div>
         </div>
 

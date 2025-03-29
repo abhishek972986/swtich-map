@@ -1,18 +1,22 @@
+import { Route, Routes } from "react-router-dom"
+import Allrender from "./Allrender"
+import Mainbase from "./base-map/Mainbase"
+import MovementsPage from "./base-map/componentbase/DeviceMovements"
+import NetworkGraph from "./base-map/componentbase/NetworkGraph"
+import NetworkBandwidthDashboard from "./base-map/componentbase/BandwidthCHarting"
+import General from "./base-map/componentbase/General"
 
-import Home from './components/Home'
-import About from './components/About'
-import Faq from './components/Faq'
-
-import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='p-0 '>
-      
-     <Home/> 
-     <About/>
-{/* <Comments/> */}
-     <Faq/>
-     <Footer/>
+      <Routes>
+<Route path="/" element={<Allrender/>}/>
+<Route path="/main" element={<Mainbase/>}/>
+<Route path="/movement" element={<MovementsPage/>}/>
+<Route path="/bandwidth" element={<NetworkBandwidthDashboard/>}/>
+<Route path="/general" element={<General/>}/>
+      </Routes>
+   
     </div>
   )
 }
